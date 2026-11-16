@@ -13,7 +13,7 @@ public class IT26102398Lab7Q1A {
             System.out.print("Enter marks for Subject " + i + ": ");
             subjects = input.nextInt();
             if((subjects <= 100 && subjects >= 0)) {
-                average += (double)subjects;
+                average += (subjects * 1.0);
             }
             else {
                 break;
